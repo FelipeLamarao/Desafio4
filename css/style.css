@@ -8,7 +8,6 @@ main{
 }
 
 .container1{
-    border: 1px solid red;
     display: flex;
     width: 50%;
     align-items: center;
@@ -22,53 +21,79 @@ img{
     display: flex;
 }
 
-
-
 .container2{
     display: flex;
     width: 50%;
-    border: 2px solid blue;
     align-items: center;
     justify-content: center;
+    
 }
 
-.form{
-    width: 60rem;
-    height: 750px;
+.container-form{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
-p{
+.container-int{
+    width: 347px;
+    display: flex;
+    flex-direction: column;
+    
     font-family: 'Merriweather';
+}
+
+.form-title p{
+    font-size: 16px;
+    line-height: 2.8em;
+}
+
+.form-title h1{
+    font-size:26px;
+    font-weight: 700,bold;
     font-style: normal;
-    font-size: 2.5rem;
-    font-weight: 400;
-    padding-bottom: 25px;
 }
 
-h2{
-    font-size: 4rem;
-    font-family: 'Merriweather';
-    font-style: bold;
-    font-weight: 700;
-    line-height:33px;
-}
-
-#p-email{
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top:35px;
     font-family: 'Lato';
-    font-style: normal;
-    font-size: 30px;
-    font-weight: 400;
-    padding-bottom: 25px;
-    margin-top: 53px;
 }
 
-input{
+form label{
+    padding: 11px 0;
+}
+
+form input{
     width: 100%;
-    border :1px solid #E8E8E8;
-    width: 60rem;
-    height: 60px;
-    font-family: 'Lato';
-    font-size: 20px;
-    font-weight: 400;
-    padding-left: 15px;
+    height: 55px;
+    border: 1px solid #E8E8E8;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding-left: 20px;
 }
+
+.form-radio{
+    font-family: 'Lato';
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.radio{    
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid red;
+}
+
+.radio label {
+    padding: 11px 0px;
+    display: flex;
+}
+
