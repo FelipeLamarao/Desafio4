@@ -169,6 +169,30 @@ form input{
 }
 
 
+@media (max-width: 768px) {
+    .container1{
+        visibility: hidden;
+        width: 1px
+    }
+    .container2{
+        width: 100%;
+        margin: auto;    
+        display: flex;  
+    }
+
+
+}
+
+@media (max-width: 425px) {
+    .container2{
+        width: 100%;
+    }  
+    
+    .container-form{
+        width: 100%;
+    }
+}
+
 
 
 
