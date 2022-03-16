@@ -2,7 +2,6 @@ main{
     width: 100%;
     height: 100vh;
     background: var(--white);
-    border: 5px solid red;
     display: flex;
     box-sizing: border-box;
 }
@@ -85,15 +84,93 @@ form input{
     padding-top: 15px;
 }
 
-.radio{    
+.radio {    
     display: flex;
     align-items: center;
-    gap: 5px;
-    border: 1px solid red;
+    gap: 5px;    
 }
 
-.radio label {
-    padding: 11px 0px;
-    display: flex;
+.radio input{
+    width:10px;
 }
+
+.form-radio a{
+    text-decoration: none;
+    color: #2B6CB0;
+    
+}
+
+.button-form{
+    background-color:#04C45C;
+    display: flex;
+    justify-content:center ;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+
+.button-form button{
+    background-color:#04C45C;
+    color: white;
+    font-weight: bold;
+}
+
+.button-form-gmail{
+    
+    margin-top:15px;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    background-color:#1A202C;
+    border-radius: 5px;
+}
+
+.button-form-gmail button{
+    background-color:#1A202C;
+    color: white;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    display: flex;    
+}
+
+.button-form-gmail img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+     
+}
+
+.button-form:hover{
+    cursor: pointer;
+    overflow: hidden;
+    transform: scale(1.1);
+    transition: 1s all ease;
+}
+
+.button-form-gmail:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s all ease;
+}
+
+.footer{
+    display: flex;
+    margin-top: 15em;
+    justify-items: center;
+    align-items: center;
+    padding-left: 50px;
+    
+}
+
+.footer a{
+    padding-left: 25px;    
+}
+
+
+
+
+
+
 
